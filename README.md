@@ -60,4 +60,4 @@
 ### kubectl describe challenge -A
 ### kubectl get pods -n cert-manager
 ### kubectl logs -n cert-manager deploy/cert-manager
-### curl -v https://whoami.yoyrdomain.com
+### curl -v https://whoami.yourdomain.com

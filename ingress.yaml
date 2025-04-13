@@ -9,10 +9,10 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - whoami.wolfpanel.id.lv
+    - whoami.your_domain.com
     secretName: whoami-tls
   rules:
-  - host: whoami.wolfpanel.id.lv
+  - host: whoami.your_domain.com
     http:
       paths:
       - path: /
